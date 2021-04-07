@@ -32,7 +32,7 @@
 <script>
     export default {
         head:{
-            title: 'Resume - KMA'
+            title: 'About - KMA'
         },
         name: 'index'
     }
