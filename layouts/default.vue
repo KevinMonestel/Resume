@@ -44,6 +44,8 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700");
 @import url("https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i");
+@import url('noty/lib/noty.css');
+@import url('noty/lib/themes/metroui.css');
 
 body {
   font-family: "Muli";

@@ -13,9 +13,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: '/lib/noty/dist/css/noty.css' },
-      { rel: 'stylesheet', href: '/lib/noty/dist/css/metroui.css' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
