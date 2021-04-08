@@ -24,7 +24,8 @@
                 <div class="flex-grow mt-20">
                     Sitio creado por Kevin Monestel 
                     (Nuxt.js - <a href="https://nuxtjs.org/" target="_blank" class="text-blue-500 hover:underline">https://nuxtjs.org/</a> · 
-                        Tailwind CSS <a href="https://tailwindcss.com/"  target="_blank" class="text-blue-500 hover:underline">https://tailwindcss.com/</a>)
+                        Tailwind CSS <a href="https://tailwindcss.com/"  target="_blank" class="text-blue-500 hover:underline">https://tailwindcss.com/</a>) ·
+                        <small>{{$config.publicConfig.ENV_TYPE}}</small>
                 </div>
             </section>
 </template>

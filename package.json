@@ -3,17 +3,24 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "cross-env NODE_ENV=development nuxt",
+    "sta": "cross-env NODE_ENV=staging nuxt",
+    "pro": "cross-env NODE_ENV=production nuxt",
+    "build:dev": "cross-env NODE_ENV=development nuxt build",
+    "build:sta": "cross-env NODE_ENV=staging nuxt build",
+    "build:pro": "cross-env NODE_ENV=production nuxt build",
+    "generate:dev": "cross-env NODE_ENV=development nuxt generate",
+    "generate:sta": "cross-env NODE_ENV=staging nuxt generate",
+    "generate:pro": "cross-env NODE_ENV=production nuxt generate",
+    "start": "nuxt start"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.1",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.9.1",
+    "cross-env": "^7.0.3",
     "noty": "^3.2.0-beta-deprecated",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.4"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.3",
