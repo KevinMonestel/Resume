@@ -10,7 +10,7 @@
                     </div>
                     <div class="subheading mb-5">
                         Cartago, Costa Rica · (506) 8867-1061 ·
-                        <a href="mailto:>kevinmonestel@outlook.com">kevinmonestel@outlook.com</a>
+                        <a href="mailto:kevinmonestel@outlook.com">kevinmonestel@outlook.com</a>
                     </div>
                     <p class="lead mb-5">Bachiller como Ingeniero en Sistemas Computacionales. Me apasiona el mundo de la tecnología y el desarrollo e implementación de sistemas informáticos en tecnologías de Microsoft.
                     Soy una persona muy responsable, me encanta leer, investigar y mantenerme actualizado en mi área para aplicarlo a un ámbito laboral que genere beneficios mutuos.
