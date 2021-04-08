@@ -1,22 +1,20 @@
-const publicConfig = require('./runtimePublic.config.js')
+const publicConfig = require("./runtimePublic.config.js");
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
-  target: 'static',
+  target: "static",
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'ResumeKMA',
+    title: "ResumeKMA",
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { hid: "description", name: "description", content: "" }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -31,19 +29,21 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
+    "@nuxt/typescript-build",
 
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss'
+    "@nuxtjs/tailwindcss"
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
+    "@nuxtjs/axios",
 
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa'
+    "@nuxtjs/pwa",
+
+    "nuxt-fontawesome"
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -52,30 +52,39 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      name: 'Resume - Kevin Monestel Amador',
-      short_name: 'ResumeKMA',
-      lang: 'es',
-      display: 'standalone',
+      name: "Resume - Kevin Monestel Amador",
+      short_name: "ResumeKMA",
+      lang: "es",
+      display: "standalone"
     }
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-  
+
   loading: {
-    height: '2px',
+    height: "2px",
     throttle: 0
   },
 
   loadingIndicator: {
-    name: 'wandering-cubes',
-    color: 'white',
-    background: '#333'
+    name: "wandering-cubes",
+    color: "white",
+    background: "#333"
   },
 
   publicRuntimeConfig: {
     publicConfig
   },
 
-  privateRuntimeConfig: {}
-}
+  privateRuntimeConfig: {},
+
+  fontawesome: {
+    imports: [
+      {
+        set: "@fortawesome/free-solid-svg-icons",
+        icons: ["fas"]
+      }
+    ]
+  }
+};
