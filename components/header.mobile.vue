@@ -7,6 +7,12 @@
 
 <script>
     export default {
+        watch: {
+            '$route' (){
+                let sidebarElement = document.querySelector('#sidebar');
+                sidebarElement.classList.add('hidden')
+            }
+        },
         methods:{
             toggleSidebarAction(){
                 let sidebarElement = document.querySelector('#sidebar');
