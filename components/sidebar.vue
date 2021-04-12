@@ -20,6 +20,9 @@
                 <li class="mb-1 cursor-pointer rounded hover:bg-yellow-500">
                     <nuxt-link to="/skills" class="block p-2">Habilidades</nuxt-link>
                 </li>
+                <li class="mb-1 cursor-pointer rounded hover:bg-yellow-500">
+                    <nuxt-link to="/contact" class="block p-2">Contacto</nuxt-link>
+                </li>
             </ul>
         </nav>
     </aside>
