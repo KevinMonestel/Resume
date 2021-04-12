@@ -49,6 +49,10 @@
     export default {
         name: 'contact',
 
+        head:{
+            title: 'Contact - KMA'
+        },
+
         data(){
             return{
                 contactModel: new Contact('', '', '', '', ''),
