@@ -1,7 +1,9 @@
 <template>
     <header class="bg-yellow-600 block md:hidden px-5 py-2 text-white flex justify-between items-center">
             <span>Kevin Monestel Amador</span>
-            <button v-on:click="toggleSidebarAction"><span class="text-2xl">🍔</span></button>
+            <button v-on:click="toggleSidebarAction">
+                <font-awesome-icon :icon="['fas', 'bars']"/>
+            </button>
     </header>
 </template>
 
