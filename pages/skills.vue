@@ -1,8 +1,8 @@
 <template>
  <section class="resume-section" id="skills">
                 <div class="resume-section-content">
-                    <h2 class="mb-10 text-6xl">Habilidades</h2>
-                    <div class="subheading mb-3">Herramientas (Front End)</div>
+                    <h2 class="mb-10 text-6xl">{{$t('titulos.hab')}}</h2>
+                    <div class="subheading mb-3">{{$t('hab.herramientas')}} (Front End)</div>
                     <ul class="flex dev-icons">
                         <li class="list-inline-item"><img class="svg-inline--fa fa-js-square fa-w-14" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt=""></li>
                         <li class="list-inline-item"><img class="svg-inline--fa fa-js-square fa-w-14" src="https://www.bryntum.com/wp-content/uploads/2020/02/js-logo.png" alt=""></li>
@@ -16,7 +16,7 @@
                         <li class="list-inline-item"><img class="svg-inline--fa fa-js-square fa-w-14" src="https://devblogs.microsoft.com/aspnet/wp-content/uploads/sites/16/2019/04/BrandBlazor_nohalo_1000x.png" alt=""></li>
                     </ul>
 
-                    <div class="subheading mb-3">Herramientas (Back End)</div>
+                    <div class="subheading mb-3">{{$t('hab.herramientas')}} (Back End)</div>
                     <ul class="flex dev-icons">
                         <li class="list-inline-item"><img class="svg-inline--fa fa-js-square fa-w-14" src="https://cdnlogo.com/logos/c/27/c.svg" alt=""></li>                        
                         <li class="list-inline-item"><img class="svg-inline--fa fa-js-square fa-w-14" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png" alt=""></li>
@@ -28,23 +28,23 @@
                         <li class="list-inline-item"><img class="svg-inline--fa fa-js-square fa-w-14" src="https://avatars.githubusercontent.com/u/931666?s=280&v=4" alt=""></li>
                     </ul>
 
-                    <div class="subheading mb-3">Aptitudes</div>
+                    <div class="subheading mb-3">{{$t('hab.aptitudes')}}</div>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><svg class="svg-inline--fa fa-check fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><!-- <i class="fas fa-check"></i> Font Awesome fontawesome.com --></span>
-                            Responsable
+                            {{$t('hab.responsable')}}
                         </li>
                         <li>
                             <span class="fa-li"><svg class="svg-inline--fa fa-check fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><!-- <i class="fas fa-check"></i> Font Awesome fontawesome.com --></span>
-                            Autodidacta
+                            {{$t('hab.autodidacta')}}
                         </li>
                         <li>
                             <span class="fa-li"><svg class="svg-inline--fa fa-check fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><!-- <i class="fas fa-check"></i> Font Awesome fontawesome.com --></span>
-                            Aprendizaje rápido
+                            {{$t('hab.ap_rapido')}}
                         </li>
                         <li>
                             <span class="fa-li"><svg class="svg-inline--fa fa-check fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><!-- <i class="fas fa-check"></i> Font Awesome fontawesome.com --></span>
-                            Disciplinado
+                            {{$t('hab.disciplinado')}}
                         </li>
                     </ul>
                 </div>

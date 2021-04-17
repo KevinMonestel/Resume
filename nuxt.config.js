@@ -19,7 +19,9 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    "node-snackbar/dist/snackbar.min.css"
+    "node-snackbar/dist/snackbar.min.css",
+    "noty/lib/noty.css",
+    "noty/lib/themes/metroui.css"
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -45,8 +47,29 @@ export default {
     // https://go.nuxtjs.dev/pwa
     "@nuxtjs/pwa",
 
-    "nuxt-fontawesome"
+    "nuxt-fontawesome",
+
+    'nuxt-i18n'
   ],
+
+  i18n:{
+    locales: [
+      {
+        name: 'Español',
+        code: 'es',
+        iso: 'es-CR',
+        file: 'es-CR.js'
+      },
+      {
+        name: 'English',
+        code: 'en',
+        iso: 'en-US',
+        file: 'en-US.js'
+      },
+    ],
+    langDir: 'lang/',
+    defaultLocale: 'es',
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},

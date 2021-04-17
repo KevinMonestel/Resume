@@ -6,7 +6,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import Header_Mobile from "../components/header.mobile.vue";
 import Sidebar from "../components/sidebar.vue";
 import Main from "../components/main.vue";
@@ -20,23 +20,16 @@ export default {
     Sidebar,
     Main
   },
-  
+
   mounted() {
-    setTimeout(function() {
-      new Noty({
-        theme: "metroui",
-        type: "warning",
-        text:
-          "¡Hola! Soy Kevin Monestel Amador, Ingeniero en Sistemas Computacionales. Este es mi resumen laboral, espero te guste.<br> ¡Saludos!",
-        layout: "bottomRight",
-        timeout: 10000
-      }).show();
-      const audio = new Audio(
-        "https://notificationsounds.com/storage/sounds/file-sounds-1147-that-was-quick.ogg"
-      );
-      audio.muted;
-      audio.play();
-    }, 10000);
+    let saludo = this.$t("saludo");
+    new Noty({
+      theme: "metroui",
+      type: "warning",
+      text: saludo,
+      layout: "bottomRight",
+      timeout: 10000
+    }).show();
   }
 };
 </script>
@@ -44,8 +37,6 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700");
 @import url("https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i");
-@import url('noty/lib/noty.css');
-@import url('noty/lib/themes/metroui.css');
 
 body {
   font-family: "Muli";
