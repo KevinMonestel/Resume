@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row text-white" id="main-wrapper">
+  <div class="flex flex-col md:flex-row text-white">
     <Header-Mobile />
     <Sidebar />
     <Main />
@@ -18,7 +18,13 @@ export default {
   components: {
     Header_Mobile,
     Sidebar,
-    Main
+    Main,
+  },
+
+  data(){
+      return{
+          audio: new Audio('https://freesound.org/data/previews/399/399934_1676145-lq.mp3')
+      }
   },
 
   mounted() {
@@ -28,9 +34,15 @@ export default {
       type: "info",
       text: saludo,
       layout: "bottomRight",
-      timeout: 10000
+      timeout: 10000,
     }).show();
-  }
+  },
+
+  watch: {
+    $route(to, from) {
+        this.audio.play();
+    }
+  },
 };
 </script>
 
@@ -40,18 +52,16 @@ export default {
 
 body {
   font-family: "Muli";
-}
-
-#main-wrapper{
-    background: url("https://images.alphacoders.com/985/thumb-1920-985802.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background: url("https://images.alphacoders.com/985/thumb-1920-985802.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-y: scroll;
 }
 
 .page-enter-active,
 .page-leave-active {
-  transition: opacity 0.5s;
+  transition: opacity 0.2s;
 }
 
 .page-enter,
@@ -86,7 +96,7 @@ body {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #1BA1E2;
+  background-color: #1ba1e2;
 }
 
 .dev-icons {
@@ -124,11 +134,11 @@ section.resume-section .resume-section-content {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1BA1E2;
+  background: #1ba1e2;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #1BA1E2;
+  background: #1ba1e2;
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -146,7 +156,7 @@ section.resume-section .resume-section-content {
 }
 
 .text-primary {
-  color: #1BA1E2 !important;
+  color: #1ba1e2 !important;
 }
 
 a.text-primary:hover,

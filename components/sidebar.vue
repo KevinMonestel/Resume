@@ -5,7 +5,7 @@
         </div>
         <nav class="flex flex-col h-full justify-center items-center">
             <div class="mb-5">
-                <img class="rounded-full w-44" src="~/assets/foto.jpg" alt="Foto personal">
+                <img class="rounded-full w-44 shadow ring-4 ring-blue-400" src="~/assets/foto.jpg" alt="Foto personal">
             </div>
             <ul class="text-center text-xl">
                 <li class="mb-1 cursor-pointer rounded hover:bg-gray-700">
