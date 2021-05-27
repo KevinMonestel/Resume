@@ -89,13 +89,14 @@ export default {
 
   loading: {
     height: "2px",
-    throttle: 0
+    throttle: 0,
+    color: "#1BA1E2"
   },
 
   loadingIndicator: {
     name: "wandering-cubes",
     color: "white",
-    background: "#333"
+    background: "#222"
   },
 
   publicRuntimeConfig: {

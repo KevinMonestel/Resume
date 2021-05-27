@@ -3,6 +3,7 @@ export default {
     carrera: 'Computer Systems Engineer',
     perfil: 'Bachelor of Computer Systems Engineer. I am passionate about the world of technology and the development and implementation of computer systems in Microsoft technologies. I am a very responsible person, I love reading, researching and keeping up to date in my area to apply it to a work environment that generates mutual benefits. I learn all new knowledge in a short period of time, I efficiently manage my time and activities established for the fulfillment of a goal',
     footer_1: 'Site created by Kevin Monestel',
+    redes: 'You can find me in',
     cerrar: 'Close',
     sidebar: {
         index: 'About',

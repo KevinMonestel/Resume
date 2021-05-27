@@ -15,27 +15,27 @@
                 </div>
 
                 <div class="pb-5">
-                    <input type="text" v-model="contactModel.name" class="w-full md:w-96 p-2 border focus:ring-1 focus:ring-yellow-500 focus:border-transparent focus:outline-none" :placeholder="$t('con.nombre')" required/>
+                    <input type="text" v-model="contactModel.name" class="bg-transparent border-b w-full md:w-96 p-2 focus:ring-1 focus:ring-blue-500 focus:border-transparent focus:outline-none" :placeholder="$t('con.nombre')" required/>
                 </div>
 
                 <div class="pb-5">
-                    <input type="text" v-model="contactModel.email" class="w-full md:w-96 p-2 border focus:ring-1 focus:ring-yellow-500 focus:border-transparent focus:outline-none" :placeholder="$t('con.correo')" required/>
+                    <input type="text" v-model="contactModel.email" class="bg-transparent border-b w-full md:w-96 p-2 focus:ring-1 focus:ring-blue-500 focus:border-transparent focus:outline-none" :placeholder="$t('con.correo')" required/>
                 </div>
 
                 <div class="pb-5">
-                    <input type="text" v-model="contactModel.phone" class="w-full md:w-96 p-2 border focus:ring-1 focus:ring-yellow-500 focus:border-transparent focus:outline-none" :placeholder="$t('con.numero')" required/>
+                    <input type="text" v-model="contactModel.phone" class="bg-transparent border-b w-full md:w-96 p-2 focus:ring-1 focus:ring-blue-500 focus:border-transparent focus:outline-none" :placeholder="$t('con.numero')" required/>
                 </div>
 
                 <div class="pb-5">
-                    <input type="text" v-model="contactModel.subject" class="w-full md:w-96 p-2 border focus:ring-1 focus:ring-yellow-500 focus:border-transparent focus:outline-none" :placeholder="$t('con.asunto')" required/>
+                    <input type="text" v-model="contactModel.subject" class="bg-transparent border-b w-full md:w-96 p-2 focus:ring-1 focus:ring-blue-500 focus:border-transparent focus:outline-none" :placeholder="$t('con.asunto')" required/>
                 </div>
 
                 <div class="pb-5">
-                    <textarea type="textarea" v-model="contactModel.content" class="w-full md:w-2/5 p-2 border focus:ring-1 focus:ring-yellow-500 focus:border-transparent focus:outline-none" :placeholder="$t('con.cuerpo')" required/>
+                    <textarea type="textarea" v-model="contactModel.content" class="bg-transparent border-b w-full md:w-2/5 p-2 focus:ring-1 focus:ring-blue-500 focus:border-transparent focus:outline-none" :placeholder="$t('con.cuerpo')" required/>
                 </div>
 
                 <div class="pb-5">
-                    <button type="submit" class="bg-gray-700 text-white shadow py-3 hover:bg-yellow-500 transition w-full md:w-2/5">{{buttonText}}</button>
+                    <button type="submit" class="bg-gray-700 text-white shadow py-3 hover:bg-blue-500 transition w-full md:w-2/5">{{buttonText}}</button>
                 </div>
             </form>
         </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row">
+  <div class="flex flex-col md:flex-row text-white" id="main-wrapper">
     <Header-Mobile />
     <Sidebar />
     <Main />
@@ -25,7 +25,7 @@ export default {
     let saludo = this.$t("saludo");
     new Noty({
       theme: "metroui",
-      type: "warning",
+      type: "info",
       text: saludo,
       layout: "bottomRight",
       timeout: 10000
@@ -40,6 +40,23 @@ export default {
 
 body {
   font-family: "Muli";
+}
+
+#main-wrapper{
+    background: url("https://images.alphacoders.com/985/thumb-1920-985802.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
 }
 
 .font-saira {
@@ -69,7 +86,7 @@ body {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #1BA1E2;
 }
 
 .dev-icons {
@@ -103,16 +120,15 @@ section.resume-section .resume-section-content {
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 4px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #666;
+  background: #1BA1E2;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #b3b3b3;
+  background: #1BA1E2;
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -121,16 +137,16 @@ section.resume-section .resume-section-content {
 }
 
 ::-webkit-scrollbar-track {
-  background: #e1e1e1;
+  background: #333;
 }
 
 ::-webkit-scrollbar-track:hover,
 ::-webkit-scrollbar-track:active {
-  background: #d4d4d4;
+  background: #333;
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #1BA1E2 !important;
 }
 
 a.text-primary:hover,

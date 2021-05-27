@@ -3,6 +3,7 @@ export default {
     carrera: 'Ingeniero en Sistemas Computacionales',
     perfil: 'Bachiller como Ingeniero en Sistemas Computacionales. Me apasiona el mundo de la tecnología y el desarrollo e implementación de sistemas informáticos en tecnologías de Microsoft. Soy una persona muy responsable, me encanta leer, investigar y mantenerme actualizado en mi área para aplicarlo a un ámbito laboral que genere beneficios mutuos. Aprendo todo conocimiento nuevo en un corto lapso de tiempo, gestiono de manera eficiente mi tiempo y actividades establecidas para el cumplimiento de una meta',
     footer_1: 'Sitio creado por Kevin Monestel',
+    redes: 'Puedes encontrarme en',
     cerrar: 'Cerrar',
     sidebar: {
         index: 'Acerca',

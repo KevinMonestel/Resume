@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-yellow-600 block md:hidden px-5 py-2 text-white flex justify-between items-center">
+    <header class="bg-gray-900 block md:hidden px-5 py-2 text-white flex justify-between items-center border-r border-gray-700">
             <span>Kevin Monestel Amador</span>
             <button v-on:click="toggleSidebarAction">
                 <font-awesome-icon :icon="['fas', 'bars']"/>
