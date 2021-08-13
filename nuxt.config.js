@@ -68,7 +68,7 @@ export default {
       },
     ],
     langDir: 'lang/',
-    defaultLocale: 'es',
+    defaultLocale: 'en',
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
