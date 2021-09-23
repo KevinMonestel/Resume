@@ -3,7 +3,7 @@
         <div class="resume-section-content">
             <p class="subheading pb-5">{{$t('con.info')}}</p>
             <p><font-awesome-icon :icon="['fas', 'envelope']"  class="svg-inline--fa fa-linkedin-in fa-w-14"/> kevinmonestel@outlook.com</p>
-            <p><font-awesome-icon :icon="['fas', 'phone']"  class="svg-inline--fa fa-linkedin-in fa-w-14"/>  8867-1061</p>
+            <p><font-awesome-icon :icon="['fas', 'phone']"  class="svg-inline--fa fa-linkedin-in fa-w-14"/> (+506)8867-1061</p>
 
             <form action="https://formspree.io/f/mrgrgvep" method="POST" @submit.prevent="submitContactFormAction" class="pt-12">
                 <div class="pb-5">

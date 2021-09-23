@@ -10,7 +10,7 @@
                     </div>
                     <div class="subheading mb-5">
                         <font-awesome-icon :icon="['fas', 'map-marker-alt']"  class="text-gray-600"/> Cartago, Costa Rica · 
-                        <font-awesome-icon :icon="['fas', 'phone']"  class="text-gray-600"/> (506) 8867-1061 ·
+                        <font-awesome-icon :icon="['fas', 'phone']"  class="text-gray-600"/> (+506)8867-1061 ·
                         <font-awesome-icon :icon="['fas', 'envelope']"  class="text-gray-600"/> <a href="mailto:kevinmonestel@outlook.com">kevinmonestel@outlook.com</a>
                     </div>
                     <p class="lead mb-5 italic">"{{$t('perfil')}}"</p>
