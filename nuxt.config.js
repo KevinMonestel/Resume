@@ -12,7 +12,9 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" }
+      { name: "description", name: "description", content: "Kevin Monestel Amador - Online Resume" },
+      { name: 'author', content: 'Kevin Monestel Amador'},
+      { property: 'og:title', content: 'Kevin Monestel Amador - Online Resume'}
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
