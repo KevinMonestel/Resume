@@ -15,7 +15,8 @@ export default {
     titulos: {
         exp: 'Experiencia Laboral',
         edu: 'Educación',
-        hab: 'Habilidades'
+        hab: 'Habilidades',
+        pro: 'Proyectos Básicos'
     },
     hab: {
         herramientas: 'Herramientas',
@@ -28,8 +29,15 @@ export default {
     exp: {
         fecha_exp_1: 'Octubre 2019 - Febrero 2021',
         fecha_exp_2: 'Febrero 2021 - Presente',
-        desc_exp_1: 'Desarrollo de software en plataforma .Net Framework / Core (C#), con la aplicación de las arquitecturas MVC, N Capas, SOA y Microservicios, programación orientada a objetos y patrones de diseño SOLID y aplicaciones distribuidas. Inyección de dependencia, implementación de seguridad a APIs mediante JWT y versionamiento de estas, integración de swagger. Modelado de Base de Datos, creación de Triggers, Jobs, Procedimientos Almacenados, realización de transacciones y sus niveles de aislamiento, SQL dinámico, creación de índices agrupados y no agrupados, manejo de esquemas, vistas, CTEs. Manejo de cronograma, asignación de actividades mediante metodología DevOps, actualización del board, revisión y depuración de código, gestión de PRs, branches (vinculaciones a actividades) a través de Azure DevOps Server.'
-    },
+        desc_exp_1: 'Desarrollo de software en plataforma .Net Framework / Core (C#), con la aplicación de las arquitecturas MVC, N Capas, SOA y Microservicios, programación orientada a objetos y patrones de diseño SOLID y aplicaciones distribuidas. Inyección de dependencia, implementación de seguridad a APIs mediante JWT y versionamiento de estas, integración de swagger. Modelado de Base de Datos, creación de Triggers, Jobs, Procedimientos Almacenados, realización de transacciones y sus niveles de aislamiento, SQL dinámico, creación de índices agrupados y no agrupados, manejo de esquemas, vistas, CTEs. Manejo de cronograma, asignación de actividades mediante metodología DevOps, actualización del board, revisión y depuración de código, gestión de PRs, branches (vinculaciones a actividades) a través de Azure DevOps Server.',
+        tit_pag_1: 'Ahorcado',
+        desc_pag_1: 'Juego del ahorcado, límite de tiempo y número máximo de intentos.',
+        tit_pag_2: 'ChatDemo',
+        desc_pag_2: 'Chat con funcionalidades básicas en tiempo real.',
+        tit_pag_3: 'DigitalDrums',
+        desc_pag_3: 'Batería virtual con sonidos realistas.'
+
+      },
     edu: {
         desc_edu_1: 'Desarrollo e implementación de Sistemas Informáticos',
         fecha_edu_1: 'Enero 2016 - Diciembre 2019',

@@ -59,9 +59,8 @@ body {
   overflow-y: scroll;
 }
 
-.page-enter-active,
-.page-leave-active {
-  transition: opacity 0.2s;
+.page-enter-active {
+  transition: opacity 0.5s;
 }
 
 .page-enter,

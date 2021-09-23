@@ -15,7 +15,8 @@ export default {
     titulos: {
         exp: 'Work experience',
         edu: 'Education',
-        hab: 'Skills'
+        hab: 'Skills',
+        pro: 'Basic Projects'
     },
     hab: {
         herramientas: 'Tools',
@@ -28,8 +29,14 @@ export default {
     exp: {
         fecha_exp_1: 'October 2019 - February 2021',
         fecha_exp_2: 'February 2021 - Present',
-        desc_exp_1: 'Software development on the .Net Framework / Core (C #) platform, with the application of MVC, N Layers, SOA and Microservices architectures, object-oriented programming and SOLID design patterns and distributed applications. Dependency injection, API security implementation through JWT and versioning of these, swagger integration. Database modeling, creation of Triggers, Jobs, Stored Procedures, carrying out transactions and their isolation levels, dynamic SQL, creation of clustered and non-clustered indexes, management of schemas, views, CTEs. Schedule management, activity assignment through DevOps methodology, board update, code review and debugging, management of PRs, branches (links to activities) through Azure DevOps Server.'
-    },
+        desc_exp_1: 'Software development on the .Net Framework / Core (C #) platform, with the application of MVC, N Layers, SOA and Microservices architectures, object-oriented programming and SOLID design patterns and distributed applications. Dependency injection, API security implementation through JWT and versioning of these, swagger integration. Database modeling, creation of Triggers, Jobs, Stored Procedures, carrying out transactions and their isolation levels, dynamic SQL, creation of clustered and non-clustered indexes, management of schemas, views, CTEs. Schedule management, activity assignment through DevOps methodology, board update, code review and debugging, management of PRs, branches (links to activities) through Azure DevOps Server.',
+        tit_pag_1: 'Ahorcado',
+        desc_pag_1: 'Hangman game, time limit and maximum number of attempts.',
+        tit_pag_2: 'ChatDemo',
+        desc_pag_2: 'Chat with basic functionalities in real time.',
+        tit_pag_3: 'DigitalDrums',
+        desc_pag_3: 'Virtual drums with realistic sounds.'
+      },
     edu: {
         desc_edu_1: 'Development and implementation of computer systems',
         fecha_edu_1: 'January 2016 - December 2019',
