@@ -13,7 +13,7 @@ export default {
         con: 'Contact'
     },
     titulos: {
-        exp: 'Work experience',
+        exp: 'Work Experience',
         edu: 'Education',
         hab: 'Skills',
         pro: 'Basic Projects'
